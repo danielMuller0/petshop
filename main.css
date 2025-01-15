@@ -45,6 +45,10 @@ body {
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 section .container {
@@ -77,4 +81,11 @@ section p {
 .brand-list li {
     display: inline;
     margin-right: 8px;
+}
+
+footer {
+    padding: 16px 0;
+    background-color: cadetblue;
+    color: aliceblue;
+    text-align: center;
 }
