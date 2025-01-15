@@ -89,3 +89,76 @@ footer {
     color: aliceblue;
     text-align: center;
 }
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 140px;
+}
+
+form button {
+    background-color: rgb(36, 36, 163);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+form  button:hover {
+    background-color: #314e9e;
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(36, 36, 163);
+}
+
+.petshop-map {
+    width: 600px;
+    height: auto;
+    
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#listing .container {
+    display: block;
+}
+
+.product button {
+    background-color: rgb(36, 36, 163);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
